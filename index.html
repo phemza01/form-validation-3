@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icon/all.min.css">
+</head>
+<body>
+    <div class="bg-light">  
+        <div class="container">
+                <div class="row mt-5">
+                <div class="col-sm-6 bg-info">
+                    <h2 class="text-center pt-3" style="color: yellow;" >REGISTRATION</h2>
+
+                    <form action="#" id="form">
+                        <div class="input-group mb-3">
+                            <input type="text"  class="form-control" id="name" placeholder="Full Name" >
+                        </div> 
+                            <div id="nameError" style="color: red;"></div><br>
+
+                            <div class="input-group mb-3"> 
+                                <input type="text" class="form-control" id="phone" placeholder="Phone Number">
+                            </div>
+                                <div id="phoneError" style="color: red;"></div><br>
+
+                                 <div class="input-group mb-3">
+                                    <input type="text"  class="form-control" id="home" placeholder="Residential Address">
+                                </div>
+                                <div id="homeError" style="color: red;"></div><br>
+                        <div class="input-group mb-3">
+                            <input type="text"  class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div id="emailError" style="color: red;"></div><br>
+                        
+                        <div class="d-grid">
+                            <button  type="submit" class="btn btn-danger" >Signup Now</button>
+                        </div><br>
+                    </form>
+                </div>
+
+            <div class="sub2 col-sm-6 pt-5">
+                <div class="card text-center">
+                  <div class="card-body bg-secondary">
+
+                    <form action="" id="form2">
+                    <h1 style="color: yellow;">USER ID</h1>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="validatename" placeholder="Name">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="validatephone" placeholder="Phone Number">
+                    </div>
+                    
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="validateaddress" placeholder="Residential Address">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="validateemail" placeholder="Email">
+                    </div>
+                </form>
+                  </div>
+                </div>
+                </div>
+              </div>
+         </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
